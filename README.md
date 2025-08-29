@@ -1,4 +1,8 @@
 # MSc Thesis
 
 ## Abstract
-Qui scriverò un breve riassunto della mia tesi.
+Stochastic processes are widely applied across both theoretical and practical domains, as many dynamic phenomena cannot be described deterministically. In physics, for example, they are used to model the dynamics of particles subject to deterministic forces as well as random perturbations (e.g., collisions). In finance, they provide a mathematical framework for modeling asset price dynamics and, consequently, for pricing financial instruments.
+
+Another major application lies in sampling from probability distributions. In recent years, with the rise of artificial intelligence, this field has been referred to as Generative Modeling, as sampling algorithms enable the generation of new data from a target distribution. Furthermore, we have Deep Generative Models (DGMs) that require the use of a Neural Network (NN) to estimate quantities of interest. At present, the state of the art for DGMs is represented by Diffusion Models.
+
+With this application in mind, this thesis investigates the theoretical convergence guarantees of certain stochastic processes. I begin with the formal framework of Markov processes, focusing in particular on diffusion processes, for which I introduce some functional inequalities such as the Poincaré and Log-Sobolev inequalities. I then present several widely used algorithms for the case in which the distribution is known up to a normalizing constant. Finally, I turn to the more recent framework of Diffusion Models, where the underlying high-dimensional and multimodal distribution is unknown, but samples are available and can be exploited to train a NN that estimates the Stein scores.
